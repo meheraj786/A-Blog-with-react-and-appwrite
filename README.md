@@ -1,8 +1,33 @@
-# React + Vite
+# 12MegaBlog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+12MegaBlog is a blogging platform built with React and Appwrite. It allows users to create, read, update, and delete blog posts. The platform also supports user authentication and image uploads.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User authentication
+- Create, read, update, and delete blog posts
+- Image uploads for blog posts
+- Responsive design
+
+## Technologies Used
+
+- React
+- Appwrite
+- Tailwind CSS
+- React Router
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- Appwrite server
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/12MegaBlog.git
+   cd 12MegaBlog
