@@ -28,6 +28,6 @@
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/12MegaBlog.git
+  ```bash
+   git clone https://github.com/meheraj786/Mega-Project.git
    cd 12MegaBlog
