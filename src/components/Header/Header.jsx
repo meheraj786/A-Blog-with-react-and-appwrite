@@ -65,7 +65,7 @@ function Header() {
       <Container>
         <div className="flex pt-2 lg:pt-0 items-center justify-between text-blue-gray-900">
           <Link to="/">
-            <Logo width="10px" />
+            <Logo width="250px" />
           </Link>
           <div className="flex gap-5 lg:gap-0 items-center">
             <div className="lg:mr-4 hidden lg:block">{navList}</div>

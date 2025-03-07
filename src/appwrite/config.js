@@ -122,15 +122,6 @@ export class Service{
             return false
         }
     }
-    async uploadProfilePicture(file) 
-    { try 
-        { const response = await this.bucket.createFile(conf.bucketId, 'unique()', file); 
-            return response; } 
-            catch (error) 
-            { 
-                console.error('Appwrite service :: uploadProfilePicture :: error', error); throw error; 
-            } 
-        } 
 
     getFilePreview(fileId){
         return this.bucket.getFilePreview(
