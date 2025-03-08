@@ -55,7 +55,7 @@ const Profile = () => {
       <Card shadow={false} className="border border-gray-300 rounded-2xl">
         <CardHeader shadow={false} className="h-60 !rounded-lg object-cover ">
           <img
-            src="../../public/ProfileHeader.jpg"
+            src="/ProfileHeader.jpg"
             alt="dark"
             className="w-full h-full lg:w-full object-cover object-center"
             
